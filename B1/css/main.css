@@ -1,0 +1,141 @@
+/*body and wrapper*/
+body{
+	font-size: 90%;
+	font-family: calibri, sans-serif;
+	color:#000623; /*changes color of the whole text*/
+	background: -webkit-linear-gradient(#F6EED0, #F0E3B1); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#F6EED0, #F0E3B1); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#F6EED0, #F0E3B1); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#F6EED0, #F0E3B1); /* Standard syntax */
+	margin-top: 0;}
+
+#wrapper{
+	width:960px;
+	margin: 0 auto;
+	padding-left: 1%;
+	padding-right: 1%;
+}
+/********** main heading *************/
+header>h1{
+	color:#28475C;
+	font-size: 3.5em;
+	}
+
+/***************** Section Titles*************************/
+h2{color: #28475C;
+   letter-spacing: 0.1em;
+   font-size: 2.5em;
+}
+/*subtitles*/
+h3{
+	color: #4A6C74;
+	font-size: 1.5em;
+}
+
+/********************* Section Paragraphs *****************************/
+p{
+	font-size: 1.4em;
+}
+
+/************************** Unordered Lists *********************************/
+ul{
+	font-size: 1.2em;
+}
+
+/******* left column box ******************************************************/
+header+.left_info{
+	width: 55%;
+	padding: 1em 1em;
+	float: left;
+}
+
+/** sub-heading**/
+#mainsub>h3{
+	padding-top: 2.5em;
+}
+
+/** Lists **/
+
+/*li in unrodered lists*/
+article>ul>li{
+	line-height: 1.8em;
+}
+/*bottom ul*/
+#mainsub>ul{
+	padding-top: 1.2em;
+}
+/*1st li*/
+article>ul>li:first-child{
+	color:#8BA693;
+}
+/*2nd li*/
+article>ul>li[title*="middle"]{
+	color: #4A6C74;
+}
+/*3rd li*/
+article>ul>li:last-child{
+	color:#28475C;
+}
+
+
+/****************** right column box ****************************************/
+/* right side box*/
+aside{
+	width: 35%;
+	padding: 1em 1em;
+	float: right;
+	
+	background: #8BA693;
+
+}
+
+/*right side paragraph*/
+aside p{color: #F6EED0;}
+
+/*** unordered list - odd **/
+#pseudo>ul>li:nth-child(odd){
+	color: #28475C;
+}
+/*** unordered list - even **/
+#pseudo>ul>li:nth-child(even){
+	color: #F6EED0;
+}
+
+
+/********************** child and sibling section*************************/
+/*box*/
+#child{
+	clear: both;
+	padding: 1em 1em;
+
+}
+/*bold words*/
+b[title]{
+	color:#28475C;
+}
+
+/********************* foooter section************************/
+/*footer box*/
+#child+footer{
+	padding: 1em 1em;
+}
+
+/* footer links */
+footer>ul>li{
+	display: inline;
+	padding: 1.2em;
+}
+
+/* href links*/
+a[href^="http"]{
+	text-decoration: none;
+	font-size: 1.0em;
+	color: deep-pink;
+}
+/*href link hover color*/
+a[href^="http"]:hover{
+	color: teal;
+}
+a[href^="http"]:active{
+	color: pink;
+}

@@ -1,0 +1,14 @@
+Color Scheme:Adobe Kuler "Overcast Sky"
+https://kuler.adobe.com/Copy-of-Overcast-sky-color-theme-3556509/edit/?copy=true
+
+dark blue rgb 0 6 35	#000623
+med blue rgb 40 71 92	#28475C
+light blue rgb 74 108 116	#4A6C74
+light bluegreen rgb 139 166 147	#8BA693
+off white rgb 240 227 177	#F0E3B1 ---tint--#F6EED0
+
+Font: calibri, sans-serif
+
+
+
+

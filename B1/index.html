@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html>
+
+ <head>
+ 	<!--page title-->
+ 	<title>Week 1 CSS3 Selectors Rundown</title>
+ 	<!--css style sheet-->
+ 	<link rel="stylesheet" href="css/main.css">
+ </head>
+
+ <body>
+ 	<div id="wrapper"> <!--page wrapper-->
+
+ 		<!--main heading-->
+ 		<header>
+ 			<h1>Week 1 CSS3 Selectors Rundown</h1>
+ 		</header>
+ 		<!--left columns-->
+ 		<section class="left_info">
+ 			<!--Attribute Presence and Value Selectors-->
+ 			<article>
+ 				<h2>Attribute Presence and Value Selectors</h2>
+ 				<p>You can use attribute selectors to target rules. Attribute Selectors make it possible to style HTML elements that have specific attributes, rather than just class or id. Elements are placed inside of brackets [ ],they use symbols such: <b>=, ~=, |=, ^=, or $=</b> to target elements.<br></br>
+ 				CSS3 allows you to select elements based upon the contents of the attribute. There are three options is whether the attribute does one of the following:
+ 				 </p>
+ 				 <ul>
+ 					<li>Begins with the prefix</li>
+ 					<li title="middle">Contains an instance of</li>
+ 					<li>Ends with the suffix</li>
+ 				</ul>
+ 			</article>
+ 			<!--Substring Matching Attribute Selector -->
+ 			<article id="mainsub">
+ 				<h3>Substring Matching Attribute Selectors</h3>
+ 				<ul>
+ 					<li>The "Beginning With" substring attribute selector: <b>^=</b></li>
+ 					<li title="middle">The "Contains an Instance Of" substring attribute selector: <b>*=</b></li>
+ 					<li>The "Ends With" substring attribute selector: <b>$=</b></li>
+ 				</ul>
+ 			</article>
+ 		</section>	
+ 			<!--Right Column-->
+ 		<aside>
+ 			<!--Structual Psuedo-classes-->
+ 			<section id="pseudo">
+ 				<h2>Structural Pseudo-Classes</h2>
+ 				<!--psuedo paragraph-->
+ 				<p>Structural Pseudo-Classes allow you to select elements that are not represented by other simple selectors. These pseudo selectors are designed to dynamically select content based on its position in the document.</p>
+ 			<!--ordered list-->	
+ 				<ul>
+ 					<li><b>:lang()</b>  - This selector can be used to change the language dynamically on a page. (available from CSS2)</li>
+ 					<li><b>:first-child</b> - This selector is used to add or remove the first element in a list. (available from CSS2)</li>
+ 					<li><b>:last-child</b> - This selector is used to add or remove the last element in a list. (available from CSS3)</li>
+ 					<li><b>:root</b> - This selects the root element on the page, most often this is the html element(available from CSS3)</li>
+ 					<li><b>:nth-child()</b> - The most basic way to use this selector is to use keywords like "even" or "odd"  with in the parenthesis. You could be more specific and place the element number to be selected in the parenthesis. You can also use simple algebra within the parenthesis. element(available from CSS3)</li>
+ 				</ul>
+ 			</section>
+ 		</aside>
+ 			<!--Child and Adjacent Siblings-->
+ 			<section id="child">
+ 				<!--title-->
+ 				<h2>Child and Adjacent Sibling Selectors</h2>
+ 				
+ 				<!--child title-->
+ 				<h3>Child Selector</h3>
+ 				<!--child paragraph-->
+ 				<div id="par1">
+ 				<p>This selector matches all of the elements that are immediate children of a specific element. The combinator in a child selector is represented by the "greater than" sign <b>></b> ,for ex: <b title="example1">ul>li {:declarations}</b></p>
+ 				</div>
+ 				<!--sibling title-->
+ 				<h3>Adjacent Sibling Selector</h3>
+ 				<!--sibling paragraph-->
+ 				<p>This selector matches all elements that are the adjacent siblings of the specified elements. The combinator in a child selector is represented by the "plus" sign <b>+</b> such as <b title="example2">h2+p {:declarations}</b></p>
+ 				
+ 			</section>
+ 		<!--bottom footer-->
+ 		<footer>
+ 			<h2>Useful Articles</h2>
+ 			<ul>
+ 				<li><a target="_blank" href="http://www.ericfeminella.com/blog/2011/11/10/css3-attribute-selectors/">Attribute Presence and Value Selectors</a>
+ 				</li>
+ 				<li><a target="_blank" href="http://coding.smashingmagazine.com/2011/03/30/how-to-use-css3-pseudo-classes/">Structural Pseudo-Classes</a>
+ 				</li>
+ 				<li><a target="_blank" href="http://reference.sitepoint.com/css/childselector">Child and Sibling Selectors</a>
+ 				</li>
+ 			</ul>
+ 		</footer>
+
+ 	</div> <!--end of wrapper-->
+ </body>
+
+</html>
