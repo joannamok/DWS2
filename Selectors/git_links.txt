@@ -2,7 +2,7 @@ Joanna Mokhtarezadeh
 
 Git Links
 
-Repo: https://github.com/joannamok/DWS2
+Repo: https://github.com/joannamok/DWS2/tree/gh-pages/Selectors
 
 
-gh-page:
+gh-page: http://joannamok.github.io/dsw1/Selectors/index.html
