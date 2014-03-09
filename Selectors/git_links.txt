@@ -5,4 +5,4 @@ Git Links
 Repo: https://github.com/joannamok/DWS2/tree/gh-pages/Selectors
 
 
-gh-page: http://joannamok.github.io/dsw1/Selectors/index.html
+gh-page: http://joannamok.github.io/DWS2/Selectors/index.html
