@@ -1,0 +1,20 @@
+Beach Image 1:
+commons.wikimedia.org - 4116 × 2738
+
+Beach Image 2:
+http://wallpaperose.com/wp-content/uploads/2013/09/Enjoy-Summer-Beaches1.jpeg
+
+Beach Image 3:
+http://exoticandtravel.com/wp-content/uploads/2013/12/Thailand-Tourist-Attractions-in-The-Famous-hua-hin.jpg
+
+Colors:
+Adobe Kuler A Sandy Beach
+cobalt blue: rgb 35 65 153	#234199
+med blue: rgb 108 133 204	#6C85CC
+light blue rgb 161 235 255	#A1EBFF
+off white: rgb 255 235 225	#FFEBE1
+light brown: rgb 204 127 108	#CC7F6C
+
+Text:
+Calibri, sans serif
+

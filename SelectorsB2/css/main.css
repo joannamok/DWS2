@@ -1,0 +1,204 @@
+body{
+	font:100%/1.5 "calibri","sans serif";
+	max-width: 960px;
+	margin: 4% auto;/*36px/900px*/
+	background-color: #FFEBE1;
+}
+
+#wrapper{
+	width:100%; /*900px*/
+	margin: 0 auto;
+	overflow: hidden;
+	background: white;
+	padding-left: 1%;
+	padding-right: 1%;
+}
+
+/********** General Fonts,Colors and Margins***********/
+
+/*page header*/
+h1{
+	font-weight: normal;
+	font-size: 3em; /*48px/16px*/
+	color: #234199; 
+}
+/*paragraphs*/
+p{
+	font-size: 1.125em; /*18px/16px*/
+}
+/*section titles*/
+h2{
+	font-weight: normal;
+	font-size:1.5em;/*24px/16px*/
+	color: #6C85CC;
+}
+
+/*list items*/
+li{
+	line-height: 3em; /*48px line height*/
+}
+
+h2,h1,img,p{
+	padding: 0 1.666667%;/*15px/900px*/
+}
+
+/********** Structure ***********/
+
+/*side list,featured beaches*/
+aside{
+	width:22.222222%;/*200px/900px*/
+	float: right;
+}
+
+/*main image*/
+figure img{
+	float: left;
+}
+
+/*main content paragraph*/
+#main_con{
+	width:66.666667%;/*600px/900px*/
+	clear: left;
+}
+/*travelers guide section,title and paragraph*/
+ #travelers_guide{
+ 	float: left;
+ 	width: 50%;/*450px/900px*/
+ }
+ /*tip list, ordered list and title*/
+ #tip_list{
+ 	width: 50%;/*450px/900px*/
+ 	float: left;
+ }
+/*footer section*/
+ footer{clear: both;}
+
+
+
+/********** Styling ***********/
+
+/*** Image ***/
+#beach{
+	width: 55.555556%;/*500px/900px*/
+}
+
+img{
+	max-width: 100%;
+	border-radius: 4%;/*20px/500px*/
+}
+
+
+/***sidebar feature beaches***/
+/*aside box*/
+aside{
+	background-color: #6C85CC;
+	color: white;
+	border-radius: 10px;
+}
+
+/*sidebar title*/
+aside h2{
+	padding-left: 5%;/*10px/200px*/
+	color: #FFEBE1;
+}
+
+
+/*** main p ***/
+#main_con>p{
+	padding-top: 2.5%;/*15px/600*/ 
+}
+/*** Travelers Guide Section ***/
+
+#travelers_guide{
+	padding-top: 9.333333%;/*42px/450px*/
+}
+
+/***Tips-ordered list***/
+
+/*list title*/
+#tip_list>h2{
+	padding-left:9.333333%;/*42px/450px*/
+	padding-top: 9.333333%;/*42px/450px*/
+}
+/*ordered list li tags*/
+ol li{
+	line-height: 1.5em; /*24px*/
+	padding: 2.222222%;/*10px/450px*/
+	color:  #FFEBE1;
+
+}
+/*odd list items*/
+ol li:nth-child(odd){
+	background-color: #6C85CC;
+
+}
+/*even list items*/
+ol li:nth-child(even){
+	background-color: #CC7F6C;
+}
+
+/*** Foooter ***/
+footer{
+	padding-top: 9.333333%;/*42px/450px*/
+	font-size: .6875em;/*11px/16px*/
+}
+
+
+/*********************** Media Queries *******************************/
+
+/*Tablet portrait to Standard 960*/
+@media screen and(min-width: 768px)and(max-width: 959px){
+/**same as css above**/
+}
+
+/*Mobile landscape size to table portrait*/
+@media screen and(min-width: 480px)and(max-width: 767px){
+	/*removes float on tip list,full width*/
+	#tip_list{
+		width: 100%;
+		float: none;}
+	/*removes float on travel tips,full width*/
+	#travelers_guide{
+		width: 100%;
+		float: none;}
+
+}
+
+/*Mobile Portrait and Mobile Landscape size*/
+@media screen and(min-width: 479px){
+	/*removes float from image*/
+	figure img{
+		float: none}
+	/*removes side bar list*/
+	aside{
+		display:none}
+	/*removes float on tip list,full width*/
+	#tip_list{
+		width: 100%;
+		float: none}
+	/*removes float travel tips,full width*/
+	#travelers_guide{
+		width: 100%;
+		float: none}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
