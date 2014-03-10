@@ -1,0 +1,13 @@
+Colors
+
+Adobe Kuler
+Night Life
+Pink: #D904A0
+Perriwinkle: #A9ABD9
+Light Blue: #C9D7F2
+Blue: #18778C
+Teal:#1FA6A6
+white: #FFFFFF
+
+Font
+calibri, sans serif
