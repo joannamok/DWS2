@@ -50,8 +50,12 @@ article img{
 /*main parapgraph title*/
 article h2{
 	color: #803C56;
+	padding: 2.083333%;
 }
 
+article p{
+	padding: 2.083333%;
+}
  /************ SideBar ******************/
  /*box*/
  aside{
