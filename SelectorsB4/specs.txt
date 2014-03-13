@@ -1,0 +1,9 @@
+Specs:
+
+Color: Adobe Kuler - 
+green-#5B693D
+Blue: #183D4A
+Pink: #803C56
+Gray: #696969
+white: #FFFFFF
+

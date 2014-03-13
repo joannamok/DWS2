@@ -1,0 +1,89 @@
+/*Custom Style Sheet for B4*/
+/*Page Body*/
+body{
+	background-color: #FFFFFF;
+}
+/* logo,jumbotron header and all paragraphs*/
+h1,h3,p{
+	padding-left: 2.083333%; /*20px*/
+}
+/*section titles(not main sec title)*/
+h3{
+	color: #5B693D;
+}
+/************ Header ******************/
+/*logo*/
+header h1{
+	color: #803C56;
+	font-family: 'Revalia', cursive;
+	font-size: 3.125em;/*50px*/
+}
+/*jumbotron header*/
+header h2{
+	font-size: 65px;
+}
+
+/*jumbo*/
+.jumbotron{
+	background-color: #183D4A;
+	color: #FFFFFF;
+}
+
+/*jumbotron image*/
+header img{
+	padding-left: 2.083333%; /*20px*/
+}
+
+/************ Main Content ******************/
+/*main Image*/
+article img{
+	padding: 2.083333%; /*20px*/
+}
+/*main parapgraph title*/
+article h2{
+	color: #803C56;
+}
+
+ /************ SideBar ******************/
+ /*box*/
+ aside{
+ 	background-color: #5B693D;
+ 	padding: 2.083333%; /*20px*/
+ }
+/*Sidebar title*/
+ aside h3{
+ 	color: #FFFFFF;
+ 	word-spacing: .125em;/*2px*/
+ 	letter-spacing: .125em;/*2px*/
+ 	font-weight: normal;
+ 	text-align: center;
+ }
+
+/*li tags*/
+aside li{
+	padding-top: 30px;
+	list-style-type: none;
+}
+/*a links*/
+aside a{
+	color: #FFFFFF;
+	word-spacing: .125em;/*2px*/
+ 	letter-spacing: .09375em;/*1.5px*/
+}
+
+aside ul{
+	text-align: center;
+}
+/************ Top Picks Row******************/
+.favs img{
+	padding: 2.083333%; /*20px*/
+}
+
+/************ Accordain ******************/
+/*Restraunt Titles*/
+.rt{
+	color:#FFFFFF;
+}
+.places{
+	background-color: #183D4A;
+}
