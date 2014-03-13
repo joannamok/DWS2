@@ -1,4 +1,6 @@
+Joanna Moktarezadeh
+
 Git Links
 
-Git Repo:
-Git gh-page:
+Git Repo: https://github.com/joannamok/DWS2/tree/gh-pages/SelectorsB4
+Git gh-page: http://joannamok.github.io/DWS2/SelectorsB4/index.html

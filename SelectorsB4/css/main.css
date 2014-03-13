@@ -1,4 +1,5 @@
 /*Custom Style Sheet for B4*/
+/************ General ******************/
 /*Page Body*/
 body{
 	background-color: #FFFFFF;
@@ -11,12 +12,18 @@ h1,h3,p{
 h3{
 	color: #5B693D;
 }
+/*hover over links*/
+a:hover{
+	color: #803C56;
+	text-decoration: none;
+}
 /************ Header ******************/
 /*logo*/
 header h1{
 	color: #803C56;
 	font-family: 'Revalia', cursive;
 	font-size: 3.125em;/*50px*/
+	padding-bottom: 20px;
 }
 /*jumbotron header*/
 header h2{
@@ -27,6 +34,7 @@ header h2{
 .jumbotron{
 	background-color: #183D4A;
 	color: #FFFFFF;
+	margin-bottom: 60px;
 }
 
 /*jumbotron image*/
@@ -70,20 +78,48 @@ aside a{
 	word-spacing: .125em;/*2px*/
  	letter-spacing: .09375em;/*1.5px*/
 }
-
+/*un ordered list*/
 aside ul{
 	text-align: center;
 }
 /************ Top Picks Row******************/
+/*images in row 2, top picks*/
 .favs img{
 	padding: 2.083333%; /*20px*/
 }
-
+/*section titles in top picks*/
+.favs h3{
+	padding-top: 60px;
+	padding-left: 4.1666667%; /*40px*/
+}
+.favs p{
+	padding:4.1666667%; /*40px*/
+}
 /************ Accordain ******************/
-/*Restraunt Titles*/
+/*Accordain box*/
+#accordion{
+	
+}
+/*Accordoin Title*/
+section h2{
+	padding: 60px 0 2.083333% 2.083333%;/*60px 0 20px 20px*/
+}
+
+/*accordain tab headings*/
+.panel-heading h3{
+	color: #183D4A;
+	font-size:1.875em ;/*30px*/
+}
+/*Restraunt Name Text*/
 .rt{
 	color:#FFFFFF;
 }
+/*Restraunt Titles row for table*/
 .places{
-	background-color: #183D4A;
+	background-color: #696969;
+}
+
+/************ Footer ******************/
+footer{
+	padding-top: 60px;
 }
