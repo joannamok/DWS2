@@ -45,12 +45,11 @@ header img{
 /************ Main Content ******************/
 /*main Image*/
 article img{
-	padding: 2.083333%; /*20px*/
+	padding: 4.1666667%; /*40px*/
 }
 /*main parapgraph title*/
 article h2{
 	color: #803C56;
-	padding: 2.083333%;
 }
 
 article p{
@@ -60,7 +59,8 @@ article p{
  /*box*/
  aside{
  	background-color: #5B693D;
- 	padding: 2.083333%; /*20px*/
+ 	padding:2.083333%; 
+
  }
 /*Sidebar title*/
  aside h3{
@@ -124,6 +124,6 @@ section h2{
 }
 
 /************ Footer ******************/
-footer{
+footer{ 
 	padding-top: 60px;
 }
