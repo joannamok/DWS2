@@ -1,0 +1,148 @@
+/*Custom Stylesheet for B4*/
+/*.columns{
+	border: 1px solid green;
+}*/
+
+body{
+	background-color: #FBFAF8;
+}
+/*section titles*/
+h3{
+	color: #047FA0;
+	letter-spacing:.125em;/*2px*/
+}
+/*side bar box*/
+.panel{
+	background-color: #50B3C5;
+}
+/****************** Header ***********************/
+/*Logo*/
+h1{
+	color: #047FA0;
+	font-family: 'Revalia', cursive;
+	font-size: 3.125em;/*50px*/
+	padding-bottom: 20px;
+}
+/****Nav Bar*******/
+.top-bar>ul{
+	padding-bottom: 20px;
+}
+/*nav hover*/
+.top-bar-section li:not(.has-form) a:not(.button):hover {
+background: #97D9A2;
+}
+/*nav bar active*/
+.top-bar-section li.active:not(.has-form) a:not(.button) {
+padding: 0 15px;
+line-height: 45px;
+color: #fff;
+background: #047FA0;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button) {
+padding: 0 15px;
+line-height: 45px;
+background: #50B3C5;}
+
+.top-bar {
+background: #50B3C5;
+overflow: visible;
+}
+/******breadcrumbs*****/
+.breadcrumbs{
+	margin-bottom: 20px;
+	background-color: #047FA0;
+}
+/*Breadcrumbs current state*/
+.breadcrumbs>*.current a {
+cursor: default;
+color: #97D9A2;
+letter-spacing: .125em;/*2px*/
+
+}
+/*Breadcrumbs current state*/
+.breadcrumbs>* a, .breadcrumbs>* span {
+text-transform: uppercase;
+color: #fff;
+letter-spacing: .125em;/*2px*/
+}
+
+
+/****************** Main Content Row ***********************/
+/*main content,whole row*/
+#main{
+	padding-bottom: 40px;
+}
+/**/
+#main img{
+	padding: 2.083333%;/*20px*/
+}
+
+/****** sidebar ******/
+aside .panel{
+	background-color: #97D9A2;
+}
+/*text*/
+.panel>.side-nav>li>a{
+color: #047FA0;
+letter-spacing: .125em;/*2px*/
+padding-bottom: 15px
+}
+/*text hover*/
+.side-nav li a:not(.button):hover, .side-nav li a:not(.button):focus {
+color: #FEFAD7;
+}
+
+/****************** Gallery Row ***********************/
+/*gallery box*/
+#gallery{
+	padding-bottom: 40px;
+}
+/*small text under h3 tag*/
+hgroup h4{
+	color: #97D9A2;
+}
+
+
+
+/****************** Features Row ***********************/
+#feature{
+	padding-bottom: 40px;
+}
+/*section title*/
+article h3{
+	color: #50B3C5;
+	padding-bottom: 40px;
+}
+/*sub-titles*/
+h4{
+	color: #97D9A2;
+}
+/*feature img*/
+#feature img{
+	margin-bottom: 30px;
+}
+/*buttons*/
+.button{
+	color:#047FA0 ;
+	background-color:#97D9A2;
+}
+/****************** Footer ***********************/
+/* footer nav text*/
+footer ul li a{
+	color: #FEFAD7;
+}
+/* footer nav text hover*/
+footer ul li a:hover{
+	color: #97D9A2;
+}
+
+
+
+
+
+
+
+
+
+

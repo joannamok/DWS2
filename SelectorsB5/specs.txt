@@ -1,0 +1,7 @@
+Colors:
+light blue: #50B3C5
+lime green: #B5D335
+white: #FBFAF8
+off white: #FEFAD7
+blue: #047FA0
+light grn: #97D9A2
