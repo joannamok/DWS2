@@ -1,0 +1,258 @@
+/* StyleSheet for B6*/
+
+body{
+	font:100% roboto, sans-serif;
+	max-width: 960px;
+	margin: 4% auto;/*36px/900px*/
+	background-color: #DFDFE9;
+}
+
+#wrapper{
+	width:100%; /*900px*/
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+}	
+	
+/*makes all img responsive*/
+img{
+	max-width: 100%;
+	border-radius: 10px;
+}
+
+h3{
+	font-size: 1.5625em;/*25px*/
+	font-weight: normal;
+	letter-spacing: .09375em;/*1.5px*/
+	color: #668D6E;
+}
+/************** Header **************/
+/*contact button*/
+button{
+	position: fixed;
+	right: 1.111111%;/*10px*/
+	background-color: #668D6E;
+	padding: 10px 0 10px 0;
+}
+/*button link*/
+button a{
+	text-decoration: none;
+	color: #DFDFE9;
+}
+ 
+h1{
+	font-family:'Berkshire Swash', cursive;
+	font-weight: normal;
+	font-size: 3.75em;/*60px*/
+	margin: 0;
+	color: #53324F;
+	z-index: 1;
+}
+/*dog logo image*/
+#logo{
+	position: absolute;
+	right:44.444444%;
+}
+div #logo{
+	width:11.111111%;
+	margin-top: -10px;
+	z-index: 2;
+}
+/*nav box*/
+nav{
+	background-color: #668D6E;
+	padding: 1.111111%;
+	border-radius: 10px;
+	margin: 20px 0 20px 0;
+}
+/* li links for nav*/
+nav ul li{
+	display: inline;
+	padding-left: 3.333333%;/*30px*/
+}
+
+/* a links for nav*/
+nav ul li a{
+	text-decoration: none;
+	color: #DFDFE9;
+}
+nav ul li a:hover{
+	color: #F2E0A0;
+}
+
+/************** Main Article **************/
+/*article box*/
+#box1{
+	padding:1.5625% ;/*10px*/
+	width:71.111111%;/*640px*/
+	margin-right: 2.2222222%;/*20px*/
+}
+/*main image*/
+.floatleft{
+	background-color: gray;
+	float: left;
+	margin-right: 1.1111111%;/*10px*/
+	margin-bottom: 5px;
+}
+div .floatleft{
+	width: 39.0265%;/*250px*/
+	border: 3px solid #53324F;	
+}
+
+
+
+/************** SideBox **************/
+/*aside box*/
+aside{
+	width:22%;
+	height: 440px;
+	margin-left: 1.1111111%;/*10px*/
+	position: absolute;
+	top:186px;
+	right:0;
+	float: right;
+	background-color: #F0756E;
+	padding: 1.1363664%; /*5px*/
+	border-radius: 10px;
+}
+/*li links for side bar*/
+aside ul li{
+	list-style-type: none;
+	padding: 8.695652%;/*20px*/
+}
+/* a links for sidebar*/
+aside ul li a{
+	text-decoration: none;
+	color: #DFDFE9;
+}
+aside ul li a:hover{
+	color: #53324F;
+}
+/*aside h3*/
+aside h3{
+	padding-left: 6.818182%;
+	color: #F2E0A0;
+}
+
+
+/************** Boutique Section **************/
+/*box*/
+#box3{
+	margin-top: 50px;
+	padding: 2.2222222%;
+}
+
+/*image*/
+#box3 div{
+	float: right; /*640px wide*/
+	margin: 5px 0 5px .555556%;
+}
+#box3 div{
+	width: 71.1111111%;
+}
+/*blockquote*/
+blockquote{
+	border-left: 1px solid #668D6E;
+	padding-left: 5px;
+	margin-left: -.555556%;	
+	color: #53324F;
+} 
+/*paragraph*/
+#box3 p{
+	margin-top: 20px;
+}
+/************** SnackBar Section **************/
+/*box*/
+#box4{
+	clear: both;
+	margin-top: 50px;
+	padding: 2.2222222%;
+}
+/*sub title*/
+#box4 h4{
+	color: #53324F;
+	font-weight: normal;
+	font-size: 1.125em;
+}
+/*img div*/
+div #box4{
+	width: 88.888889%;
+}
+/************** Footer **************/
+ footer{
+ 	margin-top: 50px;
+ }
+footer ul li{
+
+	display: inline;
+	padding: 1.111111%;
+	border-radius: 10px;
+}
+
+footer ul li a{
+	text-decoration: none;
+	color:#53324F;
+}
+footer ul li a:hover{
+	text-decoration: none;
+	color:#668D6E;
+}
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+		aside{display: none;}
+		#logo{display: none;}
+		.floatleft{display: none;}
+		button{display: none;}
+	}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		aside{display: none;}
+		#logo{display: none;}
+		.floatleft{display: none;}
+		button{display: none;}
+
+		
+	}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		aside{display: none;}
+		#logo{display: none;}
+		.floatleft{display: none;}
+		button{display: none;}
+		
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
