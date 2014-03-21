@@ -1,8 +1,0 @@
-Colors: Adove Kuler SoundCheck Soft
-purple: #53324F
-green: #668D6E
-yellow: #F2E0A0
-orange: #F19B7A
-mellon: #F0756E
-
-white: #DFDFE9
