@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="css/normalize.css" />
+		<link rel="stylesheet"	href="css/main.css" />
+		<title>Contact Us</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link href='http://fonts.googleapis.com/css?family=Berkshire+Swash' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+		<h1>Prim Pooches</h1>
+		<form class="group">
+			<!--orderedlist for Form-->
+			
+			<h2>Contact Us</h2>
+			
+			<ol>
+				<!--First Name-->
+				<li class="group">
+					<label class="text" for="fnameitem">First Name</label>
+					<input type="text" name="name" id="fnameitem"/>
+				</li>
+				<!--Last Name-->
+				<li class="group">
+					<label class="text" for="lnameitem">Last Name</label>
+					<input type="text" name="name" id="lnameitem"/>
+				</li>
+				<!--Email-->
+				<li class="group">
+					<label class="text" for="emailitem">Email</label>
+					<input type="email" name="email" id="emailitem"/>
+				</li>
+				<!--Sublist for Checkboxes-->
+				<li class="group">
+					<!--Label for Checkboxes-->
+					<div class="grouplabel checkbox">What are you Interested In Today?</div>
+					<ol class="sublist">
+						<li>
+							<input type="radio" name="service" id="c1" value="Walking" />
+							<label class="cr radio" for="c1">Walking</label>
+						</li>
+						<li>
+							<input type="radio" name="service" id="c2" value="Sitter" />
+							<label class="cr radio" for="c2">Sitter</label>
+						</li>
+						<li>
+							<input  checked type="radio" name="service" id="c3" value="3" />
+							<label class="cr radio" for="c3">Boarding</label>
+						</li>
+						<li>
+							<input type="radio" name="service" id="c4" value="Styling" />
+							<label class="cr radio" for="c4">Styling</label>
+						</li>
+						<li>
+							<input type="radio" name="service" id="c5" value="Other" />
+							<label class="cr radio" for="c5">Other</label>
+						</li>	
+					</ol>
+				</li>
+				<!--Radio Boxes-->
+				<li class="group">
+					<div class=" grouplabel">What Size Dog/Dogs Do You Own?</div>
+					<ol class="sublist checklist">
+						<li>
+							<input type="checkbox" name="size" id="small" value="smallbreed" />
+							<label class="cr checkbox" for="small">Small</label>
+						</li>
+						<li>
+							<input type="checkbox" name="size" id="medium" value="medbreed" />
+							<label class="cr checkbox" for="medium">Medium</label>
+						</li>
+						<li>
+							<input checked type="checkbox" name="size" id="large" value="lgbreed" />
+							<label class="cr checkbox" for="large">Large</label>
+						</li>
+					</ol>
+				</li>
+				<!--Date and Time Input-->
+				<li class="group">
+					<label for="datetimefield">Date &amp; Time</label>
+					<input type="datetime" name="datetime" id="datetimefield"/>
+				</li>
+				<!--Slider-->
+				<li class-"group">
+					<label id="sliderlabel"for="fader"class="grouplabel">Volume</label>
+					<input type="range" min="1" max="30" value="1" id="fader" step="1" onchange="outputUpdate(value)">
+					<output for="fader" id="days">30 days</output>
+					<script>
+					function outputUpdate(vol) {
+  				   	document.querySelector('#days').value = vol;
+					}
+					</script>
+				</li>
+				<!--Comments Box-->
+				<li class="group">
+					<label id="commentlabel"class="grouplabel"for="mycomments">Comments</label>
+					<textarea type="text" name="mycomments" id="mycomments"></textarea>
+				</li>
+			</ol>
+			<!--Button-->
+			<button type="submit group">Send</button>
+		</form>
+		<footer>
+			<p><small>Joanna Mokhtarezadeh 2014</small></p>
+		</footer>
+
+	</body>
+</html>
