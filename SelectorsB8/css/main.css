@@ -1,0 +1,306 @@
+/********General**************/
+body{
+	font:100% roboto, sans-serif;
+	max-width: 960px;
+	margin: 4% auto;
+	background: #DFDFE9;
+	background: -webkit-linear-gradient(#DFDFE9, #fff);
+	background: -moz-linear-gradient(#DFDFE9, #fff);
+	background: -o-linear-gradient(#DFDFE9, #fff);
+	background: -ms-linear-gradient(#DFDFE9, #fff);
+	background: linear-gradient(#DFDFE9, #fff);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#DFDFE9', endColorstr='#fff',GradientType=0 );
+}
+/*page container*/
+#wrapper{
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	position: relative;
+}
+/*paragraphs*/
+p{
+	font-size: 1.125em;/*18px*/
+}
+/********************* header **********************/
+header{
+	width: 100%;
+	margin: 30px auto;
+	position: relative;
+	-webkit-perspective:500px;
+	-moz-perspective:500px;
+	-o-perspective:500px;
+	perspective:500px;
+	/*
+	-webkit-transform:rotate(1080deg);
+	-moz-transform:rotate(1080deg);
+	-o-transform:rotate(1080deg);
+	transform:rotate(1080deg);
+	*/
+}
+/*logo container*/
+#logo{
+	position: absolute;
+	top: 0;
+	left: 0;
+	-moz-transition: all 2s ease;
+	-o-transition: all 2s ease;
+	-webkit-transition: all 2s ease;
+	transition-transition: all 2s ease;
+	margin-bottom: 20px;
+
+}
+/*hover over logo to rotate*/
+#logo:hover{
+	-webkit-transform:rotate(1080deg);
+	-moz-transform:rotate(1080deg);
+	-o-transform:rotate(1080deg);
+	transform:rotate(1080deg);
+
+}
+/*logo title*/
+h1{
+	color:#53324F;
+	font-family:'Berkshire Swash', cursive;
+	font-size: 2.8125em;/*30px*/
+	font-weight: normal;
+	padding-left: 1.1111111%;/*10px*/
+}
+/*dog logo*/
+#logoDog{
+	position: absolute;
+	left: 100%;
+	top:0;
+}
+
+/*********************** main article ********************************/
+/*article section*/
+article{
+	margin-top: 150px;
+	clear: both;
+	width: 66.666667%;/*600px*/
+}
+/*article title*/
+h2{
+	color:#53324F;
+	font-weight: normal;
+	padding-left: 1.1111111%;/*10px*/
+	font-size: 1.75em;/*18px*/
+}
+/*article subtitle*/
+h3{
+	color:#668D6E;
+	font-weight: normal;
+	padding-left: 1.1111111%;/*10px*/
+	font-size: 1.5em;/*18px*/
+}
+/*paragraph*/
+p{
+	padding: 1.1111111%;/*10px*/
+}
+/************************** aside ********************************/
+aside{
+	width:22.222222%;/*200px*/
+	position: absolute;
+	right: 0;
+	margin-right: 2%;
+	top:100px;
+	background: -webkit-linear-gradient(#668D6E, #334737);
+	background: -moz-linear-gradient(#668D6E, #334737);
+	background: -o-linear-gradient(#668D6E, #334737);
+	background: -ms-linear-gradient(#668D6E,#334737);
+	background: linear-gradient(#668D6E, #334737);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#668D6E', endColorstr='#334737',GradientType=0 );
+	padding-left: 5%;
+}
+/*hover for aside,will skew*/
+aside:hover{
+	-webkit-transform:skewX(5deg);
+	-moz-transform:skewX(5deg);
+	-o-transform:skewX(5deg);
+	transform:skewX(5deg);
+}
+
+/*title*/
+aside h3{
+	color: #fff;
+}
+/*unordered list*/
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+/*li tags*/
+li{
+	margin-bottom: 30px;
+}
+/*links*/
+a{
+	text-decoration: none;
+	color: #DFDFE9;
+	-o-transition-property:color;
+	-moz-transition-property:color;
+	-webkit-transition-property:color;
+	transition-property:color;
+
+	-moz-transition-duration:1s;
+	-o-transition-duration:1s;
+	-webkit-transition-duration:1s;
+	transition-duration:1s;
+}
+/*hover over links*/
+a:hover{
+	color: #F2E0A0;
+	cursor: pointer;
+}
+
+
+/************ gallery *******************************************/
+/*gallery container*/
+#gallery{
+	clear: both;
+	overflow: hidden;
+	
+}
+
+/*all images*/
+img{
+	max-width: 100%;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+/*image containers*/
+.imageCon{
+	position: relative;
+	width: 22.222222%;/*200px*/
+	height: 200px;
+	margin-bottom: 40px;
+	margin-left: 2.22222222%;
+	float: left;
+}
+/*transitions*/
+.name{
+	position: absolute;
+	top: 0;
+	height: 100%;
+	opacity: 0;
+	-webkit-transition:opacity 1s ease-in;
+	-moz-transition:opacity 1s ease-in;
+	-o-transition:opacity 1s ease-in;
+	transition:opacity 1s ease-in;
+}
+/*names of dogs on image hover*/
+.name h3{
+	margin-top:120px;
+	padding: 5px 10%;/*20px*/
+	background-color: #53324F;
+	color: #fff;
+	text-align: center;
+}
+/*image hover*/
+.name:hover{
+	opacity: .8;
+}
+/*********************section under gallery *****************************************/
+/*last section*/
+#last{	
+	clear: both;
+}
+/*last section h2*/
+#last h2{
+	margin-bottom: 50px;
+}
+/*button*/
+button {
+	float: right;
+	color:#DFDFE9;
+	padding: 5px 10px;
+	width: 150px;
+	width: 25%;
+	min-width: 100px;
+	margin-right: 3.33333333%;/*30px*/
+	background: #334737;
+	background: -webkit-linear-gradient(#668D6E,#334737) no-repeat;
+	background: -moz-linear-gradient(#668D6E,#334737) no-repeat;
+	background: -o-linear-gradient(#668D6E,#334737) no-repeat;
+	background: -ms-linear-gradient(#668D6E,#334737) no-repeat;
+	background: linear-gradient(#668D6E,#334737) no-repeat;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#668D6E', endColorstr='#334737',GradientType=0);
+
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+/*button hover*/
+button:hover{
+	margin-top: 30px;
+	background: #F2E0A0;
+	color: #53324F;
+	-webkit-transform:scale(1.2,1.2);
+	-o-transform:scale(1.2,1.2);
+	-moz-transform:scale(1.2,1.2);
+	transform:scale(1.2,1.2);
+	cursor: pointer;
+
+	transform: translateY(-20px);
+	-webkit-transform: translateY(-20px);
+	-moz-transform: translateY(-20px);
+	-0-transform: translateY(-20px);
+}
+/*button active*/
+button:active{
+	background: #F0756E;
+	color: #53324F;
+}
+
+/********************** footer ******************/
+footer{
+	clear: both;
+	padding-top: 50px;
+}
+
+
+
+
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+		
+	}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+		
+	}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		button{float: left;}
+		.imageCon{display: block;
+			width: 200px;}
+		aside{display: none;}
+	}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		button{float: left;}
+		.imageCon{float: none;
+			width: 200px}
+		aside{display: none;}
+	}
+
+
+
+
+
+
+
+
+
