@@ -18,7 +18,6 @@ th{
 td{
 	background: #DFDFE9;
 }
-
 /*font color for table heads*/
 table thead tr th, table thead tr td, table tfoot tr th, table tfoot tr td {
 padding: 0.5rem 0.625rem 0.625rem;
